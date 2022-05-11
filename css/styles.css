@@ -91,7 +91,13 @@ span {
 }
 
 .main img {
-    width: 350px;;
+    width: 300px;;
     border: 7px solid aqua;
-    height: 500px;
+    height: 400px;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
 }

@@ -9,19 +9,26 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+   
 }
 
-.wrapper {
-    width: 100vw;
-    height: 100vh;
-    background-color:#191c32;
-    color: #fff;
-}
+.foto-perfil {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  .foto-perfil:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 2em;
+    background-color:#191c32;
+    color: #fff;
 }
 
 .brand {

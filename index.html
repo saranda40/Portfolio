@@ -6,46 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio Sebastián Aranda</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+        @media (min-width: 992px){
+            .alto-100 {
+                height: 100vh;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>S<span>@</span>O</h2>
-                </div>
-                    <ul class="menu">
-                        <li><a class="active" href="#">Inicio</a></li>
-                        <li><a href="#">Acerca de mí</a></li>
-                        <li><a href="#">Portafolio</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-            </nav>
-        </header>
-        <main class="main">
-            <div class="info-content">
-                <h1>Yo Soy <span>Sebastian</span> Aranda</h1>
-                <p>Desarrollador de Aplicaciones, Administrador de Sistemas, Bases de Datos</p>
-                <a download="docs/CV_SAO.docx" href="#">
-                    <button class="download-cv">Descarga mi CV</button>
-                    </a>
+   <div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h2>S<span>@</span>O</h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PortFolio</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <img src="img/foto perfil.jpg" alt="Sebastián Aranda - Desarrollador de Aplicaciones">
-        </main>
-    </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container-fluid d-flex align-items-center justify-content-center alto-100">
+            <div class="row">
+                <!-- Columna Izquierda -->
+                <div class="col-12 col-lg-9">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <article class="card h-100  bg-success">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <img src="/img/foto perfil2.jpg" alt="Sebastián Aranda - Desarrollador de Aplicaciones" class="img-fluid border border-3 rounded-circle foto-perfil">
+                                        <div class="ps-lg-3">
+                                            <h6 class="m-0 h6">Sebastián Aranda Ovalle</h6>
+                                            <p class="m-0 h6">System Analist</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="h6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis obcaecati distinctio quis delectus debitis mollitia maiores. Nulla eum enim quas. Repellendus impedit labore facere. Accusamus amet dolor ut reiciendis enim?</p>
+                                        <p class="fs-6 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quod, velit odio, iure neque impedit dolor magnam accusantium delectus unde, cumque voluptatibus! Accusamus harum provident nostrum obcaecati quisquam quam voluptatum?</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-lg-4 bg-primary">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus odio amet! Mollitia dolores cum et aspernatur culpa. Possimus voluptas voluptate tenetur nisi! Totam, atque. Necessitatibus eius esse vitae non?</p>
+                        </div>
+                        <div class="col-12 col-lg-4 bg-warning">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus odio amet! Mollitia dolores cum et aspernatur culpa. Possimus voluptas voluptate tenetur nisi! Totam, atque. Necessitatibus eius esse vitae non?</p>
+                        </div>
+                        <div class="col-12 col-lg-8 bg-danger">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus odio amet! Mollitia dolores cum et aspernatur culpa. Possimus voluptas voluptate tenetur nisi! Totam, atque. Necessitatibus eius esse vitae non?</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Columna derecha -->
+                <div class="col-12 col-lg-3 bg-secondary">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad maxime, est molestiae alias repellat vero dolorum corrupti quas voluptatem mollitia. Quibusdam aspernatur beatae ratione? Voluptates iure repellat aspernatur aliquam.</p>            
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
 
-    <div class="about">
-      <img src="img/about.png" alt="Acceda a mi perfil de Linkedin">
-      <div class="about-me">
-        <h2>About me</h2>
-        <h4>System Analists</h4>
-        <p>DBA Programmer</p>
-        <div class="divider"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button class="download-cv">Read More</button>
-      </div>
-    </div>
+    </footer>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>

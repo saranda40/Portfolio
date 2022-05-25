@@ -14,4 +14,9 @@ $secondary: #EDF2F8;
     background-position: 85% top;
 };
 
+.texto-cursiva {
+    font-weight: bold;
+    font-style: italic;
+};
+
 @import "../node_modules/bootstrap/scss/bootstrap";

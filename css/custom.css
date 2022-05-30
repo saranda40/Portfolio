@@ -2,6 +2,11 @@
   width: 70px;
 }
 
+.texto_cursivo {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .fondo-card {
   background-image: url("../img/bg-pattern-quotation.svg");
   background-repeat: no-repeat;

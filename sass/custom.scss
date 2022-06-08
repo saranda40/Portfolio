@@ -13,6 +13,12 @@ $secondary: #EDF2F8;
     font-weight: bold;
 }
 
+.fondo-card-numismatica {
+    background-image: url('../img/numismatica.jpg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
 .fondo-card {
     background-image: url('../img/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
@@ -20,3 +26,4 @@ $secondary: #EDF2F8;
 };
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/carousel"

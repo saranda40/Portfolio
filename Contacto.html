@@ -41,8 +41,39 @@
         </nav>
     </div>
   
-     <div class="container d-flex align-items-center justify-content-center alto-100">
-           <h1>Aqui va el detalle del Portafolio</h1>
+     <div class="container my-3 alto-100">
+         <div class="row">
+            <div class="col-12">
+                <h1>Formulario de Contacto</h1>
+            </div>
         </div>
+        
+        <div class="row">
+            <div class="col-8">
+                <form>
+                    <div class="mb-3">
+                      <label for="Nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="Nombre" aria-describedby="nombrelHelp">
+                      <div id="nombrelHelp" class="form-text">Debe Ingresar nombre</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="Email" class="form-label">Correo</label>
+                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Debe ingresar Correo electrónico</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentarios" class="form-label">Comentarios</label>
+                        <textarea class="form-control"></textarea>
+                        <div id="emailHelp" class="form-text">Comentarios</div>
+                      </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enviar Correo</button>
+                  </form>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+     </div>
 </body>
 </html>

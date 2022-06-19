@@ -10,6 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/img/favicon-16x16.png">
+    <script lang="javascript">
+        function enviar_correo()
+        {
+            alert('Gracias por tu correo ' + document.getElementById("Nombre").value + ' te responderé a la brevedad');
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -44,12 +51,12 @@
      <div class="container my-3 alto-100">
          <div class="row">
             <div class="col-12">
-                <h1>Formulario de Contacto</h1>
+                <h1 class="1-responsive font-weight-bold text-center my-4">Formulario de Contacto</h1>
             </div>
         </div>
         
         <div class="row">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
                 <form>
                     <div class="mb-3">
                       <label for="Nombre" class="form-label">Nombre</label>
@@ -67,11 +74,30 @@
                         <div id="emailHelp" class="form-text">Comentarios</div>
                       </div>
                     
-                    <button type="submit" class="btn btn-primary">Enviar Correo</button>
+                    <button type="submit" class="btn btn-primary" onclick="enviar_correo();">Enviar Correo</button>
                   </form>
             </div>
-            <div class="col-4">
-
+            <div class="col-12 col-lg-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="https://www.linkedin.com/in/sebastian-aranda-ovalle/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 text-center mt-5">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Santiago de Chile</p>
+                    </div>
+                    <div class="col-12 text-center mt-5">
+                        <i class="fas fa-phone"></i>
+                        <p>+56 9 56789643</p>
+                    </div>
+                    <div class="col-12 text-center mt-5">
+                        <i class="fas fa-mail-bulk"></i>
+                        <p>sebastian.aranda.o@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-12"></div>
             </div>
         </div>
      </div>
